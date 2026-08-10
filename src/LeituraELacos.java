@@ -64,7 +64,7 @@
         preencherVetor(vetor);
         quantImpares = contaImpares(vetor); 
         soma = somaVetor(vetor);
-        media = soma / tamanho;
+        media = (double) soma / tamanho;
         maioresQueAMedia = maioresQue(media, vetor);
 
         IO.println("RESULTADOS:");
